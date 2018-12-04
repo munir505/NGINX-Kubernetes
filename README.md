@@ -1,4 +1,6 @@
 # NGINX-Kubernetes
-```bash
-sudo yum install git -y
+##### Run All YAML Files
+
+``` conf
+events{}
 ```
