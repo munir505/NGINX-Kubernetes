@@ -31,6 +31,10 @@ http {
         }
 }
 ```
+##### Use Command to Reload NGINX conf file
+``` bash
+nginx -s reload
+```
 ##### May Need to Change Owner Ship of Jobs File in Jenkins Container
 ``` bash
 sudo chown Jenkins:Jenkins <Folder/File>
