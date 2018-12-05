@@ -14,6 +14,10 @@ apt install vim -y
 ``` bash
 vim /etc/nginx/nginx.conf
 ```
+##### Need to create Disk called jenkins-jobs
+``` bash
+gcloud compute disks create jenkins-jobs --size <size> --zone <zone>
+```
 ##### NGINX Config File
 ```
 events{}
