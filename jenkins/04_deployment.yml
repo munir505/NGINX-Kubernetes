@@ -22,7 +22,7 @@ spec:
           containerPort: 8080
         volumeMounts:
         - name: jenkins-jobs
-          mountPath: /var/jenkins_home/
+          mountPath: /var/jenkins_home/Jobs
       volumes:
         - name: jenkins-jobs
           gcePersistentDisk:
